@@ -4,7 +4,7 @@ import { Header } from 'components/Header';
 import { Suspense } from 'react';
 import { Container  } from '@mui/material';
 import { FadeLoader } from 'react-spinners';
-// import { Typography, Link } from '@mui/material';
+import { Typography, Link } from '@mui/material';
 
 export const Layout = () => {
   return (
