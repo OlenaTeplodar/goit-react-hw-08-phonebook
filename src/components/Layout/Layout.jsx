@@ -31,7 +31,7 @@ export const Layout = () => {
             <Outlet />
           </Container>
         </main>
-        {/* <footer
+        <footer
           style={{
             height: '48px',
             display: 'flex',
@@ -53,7 +53,7 @@ export const Layout = () => {
               {'.'}
             </Typography>
           </Container>
-        </footer> */}
+        </footer>
       </Suspense>
       <Toaster position="top-right" reverseOrder={false} />
     </div>
